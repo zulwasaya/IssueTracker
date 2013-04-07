@@ -167,7 +167,6 @@ DEPENDENCIES
   capybara!
   coffee-rails (~> 3.2.1)
   jquery-rails
-  omniauth
   omniauth-facebook
   omniauth-github
   omniauth-linkedin

@@ -45,7 +45,7 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 #gem for multi-user authentication
-gem 'omniauth'
+#gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'omniauth-facebook'
 gem 'omniauth-github'
