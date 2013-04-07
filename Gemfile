@@ -43,3 +43,10 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+#gem for multi-user authentication
+gem 'omniauth'
+gem 'omniauth-twitter'
+gem 'omniauth-facebook'
+gem 'omniauth-github'
+gem 'omniauth-linkedin'
