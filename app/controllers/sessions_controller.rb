@@ -2,7 +2,7 @@ class SessionsController < ApplicationController
   def create
 #    render :text => request.env['omniauth.auth'].inspect
     auth_hash = request.env['omniauth.auth']
-#    render :text => auth_hash.inspect
+    render :text => auth_hash.inspect
     if session[:user_id]
       # Means our user is signed in. Add the authorization to the user
       User.find(session[:user_id]).add_provider(auth_hash)
