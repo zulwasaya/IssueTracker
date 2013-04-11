@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a09c2f96-655f-440b-9af9-1b21b59b0123" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/IssueTracker.iml" afterPath="$PROJECT_DIR$/.idea/IssueTracker.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IssueTracker.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a09c2f96-655f-440b-9af9-1b21b59b0123" time="1365647952452" ignored="false" />
+    <file path="/Dummy.txt" changelist="a09c2f96-655f-440b-9af9-1b21b59b0123" time="1365651538920" ignored="false" />
     <file path="/Gemfile" changelist="a09c2f96-655f-440b-9af9-1b21b59b0123" time="1365613653678" ignored="false" />
     <file path="/user_creates_new_issues_spec.rb" changelist="a09c2f96-655f-440b-9af9-1b21b59b0123" time="1364959996406" ignored="false" />
     <file path="/spec_helper.rb" changelist="a09c2f96-655f-440b-9af9-1b21b59b0123" time="1364955031171" ignored="false" />
     <file path="/omniauth.rb" changelist="a09c2f96-655f-440b-9af9-1b21b59b0123" time="1365275910114" ignored="false" />
-    <file path="/sessions_controller.rb" changelist="a09c2f96-655f-440b-9af9-1b21b59b0123" time="1365650160159" ignored="false" />
+    <file path="/sessions_controller.rb" changelist="a09c2f96-655f-440b-9af9-1b21b59b0123" time="1365651784587" ignored="false" />
     <file path="/authorization.rb" changelist="a09c2f96-655f-440b-9af9-1b21b59b0123" time="1365320712137" ignored="false" />
     <file path="/new.erb" changelist="a09c2f96-655f-440b-9af9-1b21b59b0123" time="1365300855822" ignored="false" />
     <file path="/user.rb" changelist="a09c2f96-655f-440b-9af9-1b21b59b0123" time="1365307514388" ignored="false" />
@@ -44,19 +41,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="sessions_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="sessions_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0">
+            <state line="19" column="1" selection-start="652" selection-end="652" vertical-scroll-proportion="0.57608694">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="authorization.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="authorization.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/authorization.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="494" selection-end="494" vertical-scroll-proportion="0.6396396">
+            <state line="11" column="0" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,8 +112,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="37" />
-    <option name="y" value="53" />
+    <option name="x" value="7" />
+    <option name="y" value="38" />
     <option name="width" value="1347" />
     <option name="height" value="706" />
   </component>
@@ -146,6 +143,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -442,21 +441,19 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TodoList/TodoList" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -707,13 +704,6 @@
       <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -743,6 +733,13 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
@@ -919,14 +916,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="37" y="53" width="1347" height="706" extended-state="0" />
+    <frame x="7" y="38" width="1347" height="706" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943925" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3081712" sideWeight="0.43356642" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3136187" sideWeight="0.52797204" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56643355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1007,58 +1004,42 @@
   <component name="editorHistoryManager">
     <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.5/lib/rack/runtime.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="511" selection-end="511" vertical-scroll-proportion="0.3026316">
-          <folding />
-        </state>
+        <state line="17" column="0" selection-start="511" selection-end="511" vertical-scroll-proportion="0.3026316" />
       </provider>
     </entry>
     <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/request_id.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.29767442">
-          <folding />
-        </state>
+        <state line="23" column="0" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.29767442" />
       </provider>
     </entry>
     <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.13/lib/active_support/tagged_logging.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="970" selection-end="970" vertical-scroll-proportion="0.3026316">
-          <folding />
-        </state>
+        <state line="23" column="0" selection-start="970" selection-end="970" vertical-scroll-proportion="0.3026316" />
       </provider>
     </entry>
     <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-3.2.13/lib/active_record/attribute_methods/read.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="0" selection-start="3056" selection-end="3056" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="71" column="0" selection-start="3056" selection-end="3056" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-3.2.13/lib/active_record/associations/collection_proxy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="0" selection-start="2900" selection-end="2900" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="77" column="0" selection-start="2900" selection-end="2900" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/monitor.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="195" column="0" selection-start="4513" selection-end="4513" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="195" column="0" selection-start="4513" selection-end="4513" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.5/lib/rack/utils.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="2119" selection-end="2119" vertical-scroll-proportion="0.2966507">
-          <folding />
-        </state>
+        <state line="69" column="0" selection-start="2119" selection-end="2119" vertical-scroll-proportion="0.2966507" />
       </provider>
     </entry>
     <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.3018018">
-          <folding />
-        </state>
+        <state line="69" column="0" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.3018018" />
       </provider>
     </entry>
     <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_controller/metal.rb">
@@ -1070,30 +1051,22 @@
     </entry>
     <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1672" selection-end="1672" vertical-scroll-proportion="0.2966507">
-          <folding />
-        </state>
+        <state line="46" column="0" selection-start="1672" selection-end="1672" vertical-scroll-proportion="0.2966507" />
       </provider>
     </entry>
     <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/logger.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="378" column="0" selection-start="11541" selection-end="11541" vertical-scroll-proportion="0.3018018">
-          <folding />
-        </state>
+        <state line="378" column="0" selection-start="11541" selection-end="11541" vertical-scroll-proportion="0.3018018" />
       </provider>
     </entry>
     <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
+        <state line="37" column="0" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
     <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/hashie-2.0.3/lib/hashie/mash.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="0" selection-start="2650" selection-end="2650" vertical-scroll-proportion="0.33014354">
-          <folding />
-        </state>
+        <state line="85" column="0" selection-start="2650" selection-end="2650" vertical-scroll-proportion="0.33014354" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
@@ -1103,16 +1076,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/authorization.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0">
+        <state line="11" column="0" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/authorization.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="494" selection-end="494" vertical-scroll-proportion="0.6396396">
+        <state line="19" column="1" selection-start="652" selection-end="652" vertical-scroll-proportion="0.57608694">
           <folding />
         </state>
       </provider>
