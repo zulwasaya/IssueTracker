@@ -1,7 +1,7 @@
 class User < ActiveRecord::Base
-  attr_accessible :email, :name
+  attr_accessible :name, :nickname
   has_many :authorizations
-  validates :name, :presence => true
+  validates :nickname, :presence => true
 
   def add_provider(auth_hash)
   # Check if the provider already exists, so we don't add it twice
