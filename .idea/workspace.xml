@@ -15,7 +15,7 @@
     <file path="/sessions_controller.rb" changelist="a09c2f96-655f-440b-9af9-1b21b59b0123" time="1365656634619" ignored="false" />
     <file path="/authorization.rb" changelist="a09c2f96-655f-440b-9af9-1b21b59b0123" time="1365658976926" ignored="false" />
     <file path="/new.erb" changelist="a09c2f96-655f-440b-9af9-1b21b59b0123" time="1365300855822" ignored="false" />
-    <file path="/user.rb" changelist="a09c2f96-655f-440b-9af9-1b21b59b0123" time="1365661336522" ignored="false" />
+    <file path="/user.rb" changelist="a09c2f96-655f-440b-9af9-1b21b59b0123" time="1365661719128" ignored="false" />
     <file path="/fragment.rb" changelist="a09c2f96-655f-440b-9af9-1b21b59b0123" time="1365650430372" ignored="false" />
     <file path="/Ruby Console" changelist="a09c2f96-655f-440b-9af9-1b21b59b0123" time="1365642048615" ignored="false" />
     <file path="/20130407005655_create_users.rb" changelist="a09c2f96-655f-440b-9af9-1b21b59b0123" time="1365658560856" ignored="false" />
@@ -74,7 +74,7 @@
       <file leaf-file-name="authorization.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/authorization.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="94" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
+            <state line="13" column="1" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -83,7 +83,7 @@
       <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="5" selection-start="448" selection-end="448" vertical-scroll-proportion="0.35619047">
+            <state line="11" column="42" selection-start="441" selection-end="441" vertical-scroll-proportion="0.35619047">
               <folding />
             </state>
           </provider>
@@ -149,8 +149,8 @@
         <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130407005655_create_users.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
-        <option value="$PROJECT_DIR$/app/models/authorization.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/models/authorization.rb" />
       </list>
     </option>
   </component>
@@ -162,8 +162,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="321" />
-    <option name="y" value="447" />
+    <option name="x" value="334" />
+    <option name="y" value="356" />
     <option name="width" value="1183" />
     <option name="height" value="706" />
   </component>
@@ -959,7 +959,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="321" y="447" width="1183" height="706" extended-state="0" />
+    <frame x="334" y="356" width="1183" height="706" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1129,14 +1129,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/authorization.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="94" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
+        <state line="13" column="1" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="5" selection-start="448" selection-end="448" vertical-scroll-proportion="0.35619047">
+        <state line="11" column="42" selection-start="441" selection-end="441" vertical-scroll-proportion="0.35619047">
           <folding />
         </state>
       </provider>
