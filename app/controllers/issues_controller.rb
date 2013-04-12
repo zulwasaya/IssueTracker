@@ -2,6 +2,12 @@ class IssuesController < ApplicationController
   # GET /issues
   # GET /issues.json
   def index
+    unless session[:user_id]
+
+      render :template => 'sessions/new'
+      return
+    end
+
     @issues = Issue.all
 
     respond_to do |format|
