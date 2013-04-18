@@ -2,13 +2,11 @@ class IssuesController < ApplicationController
   # GET /issues
   # GET /issues.json
   def index
-    unless session[:user_id]
 
-      render :template => 'sessions/new'
-      return
-    end
+#    @issues = Issue.all
 
-    @issues = Issue.all
+# Get all issues related to user where the primary key of User record is in session[:user_id]
+    @issues = User.find(session[:user_id]).issues
 
     respond_to do |format|
       format.html # index.html.erb
@@ -21,6 +19,7 @@ class IssuesController < ApplicationController
   def show
     @issue = Issue.find(params[:id])
 
+
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @issue }
@@ -30,7 +29,11 @@ class IssuesController < ApplicationController
   # GET /issues/new
   # GET /issues/new.json
   def new
+# Create a new issue given the primary key of User record is in session[:user_id]
+
     @issue = Issue.new
+    @issue.user_id= session[:user_id]
+
 
     respond_to do |format|
       format.html # new.html.erb
@@ -46,7 +49,9 @@ class IssuesController < ApplicationController
   # POST /issues
   # POST /issues.json
   def create
+# Create a new issue given the primary key of User record is in session[:user_id]
     @issue = Issue.new(params[:issue])
+    @issue.user_id= session[:user_id]
 
     respond_to do |format|
       if @issue.save

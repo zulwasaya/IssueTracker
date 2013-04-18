@@ -1,7 +1,7 @@
 class User < ActiveRecord::Base
   attr_accessible :name, :nickname
   has_many :authorizations
-#  has_many :issues
+  has_many :issues
   validates :nickname, :presence => true
 
   def add_provider(auth_hash)

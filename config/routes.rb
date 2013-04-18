@@ -1,6 +1,6 @@
 IssueTracker::Application.routes.draw do
   resources :issues
-
+  get '/', :to => 'issues#index'
   get   '/login', :to => 'sessions#new', :as => :login
   match '/auth/:provider/callback', :to => 'sessions#create'
   match '/auth/failure', :to => 'sessions#failure'

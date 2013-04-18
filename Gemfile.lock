@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/jnicklas/capybara.git
-  revision: cfc0099712693a2da2abcda552f7d9bad20a464b
+  revision: 085581e28ecd23cd9444de46f6a4098228a0faea
   specs:
     capybara (2.1.0)
       mime-types (>= 1.16)
@@ -48,7 +48,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.2)
-    diff-lcs (1.2.2)
+    diff-lcs (1.2.3)
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
