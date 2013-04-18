@@ -23,6 +23,7 @@ class SessionsController < ApplicationController
 #    $name=auth.user.nickname
 #    flash[:notice]=> "Welcome #{auth.user.nickname} , you are authorized and logged in through #{auth_hash["provider"].capitalize}"
     $name=auth_hash["info"]["nickname"]
+    $provider=auth_hash["provider"]
     redirect_to :controller =>'issues'
   end
 
