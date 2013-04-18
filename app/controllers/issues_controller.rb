@@ -4,7 +4,10 @@ class IssuesController < ApplicationController
   def index
 
 #    @issues = Issue.all
-
+unless session[:user_id]
+  redirect_to root_url
+  return
+end
 # Get all issues related to user where the primary key of User record is in session[:user_id]
     @issues = User.find(session[:user_id]).issues
 

@@ -2,6 +2,8 @@ class SessionsController < ApplicationController
   def create
 #    render :text => request.env['omniauth.auth'].inspect
     auth_hash = request.env['omniauth.auth']
+    $name=auth_hash["info"]["nickname"]
+    $provider=auth_hash["provider"]
 #    render :text => "<pre>"+request.env["omniauth.auth"].to_yaml+"</pre>"
 
 
@@ -21,9 +23,8 @@ class SessionsController < ApplicationController
 #      render :text => "<pre>"+auth_hash.to_yaml+"</pre>"
     end
 #    $name=auth.user.nickname
-#    flash[:notice]=> "Welcome #{auth.user.nickname} , you are authorized and logged in through #{auth_hash["provider"].capitalize}"
-    $name=auth_hash["info"]["nickname"]
-    $provider=auth_hash["provider"]
+#    flash[:notice]= "Welcome #{auth.user.nickname} , you are authorized and logged in through #{auth_hash["provider"].capitalize}"
+
     redirect_to :controller =>'issues'
   end
 

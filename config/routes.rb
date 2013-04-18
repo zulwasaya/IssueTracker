@@ -1,7 +1,7 @@
 IssueTracker::Application.routes.draw do
   resources :issues
   root :to => 'sessions#new'
-  get   '/login', :to => 'sessions#new', :as => :login
+#  get   '/login', :to => 'sessions#new', :as => :login
   match '/auth/:provider/callback', :to => 'sessions#create'
   match '/auth/failure', :to => 'sessions#failure'
   get '/logout', :to => 'sessions#destroy'

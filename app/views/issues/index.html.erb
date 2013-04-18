@@ -1,5 +1,10 @@
-<h1><%=$name.capitalize %>'s Issues List</h1>
-<h3>Logged in through <%=$provider.capitalize %></h3>
+<h1><%=if $name
+         $name.capitalize
+       end
+        %> Issues List</h1>
+
+<h3>Logged in through <%=if $provider
+         $provider.capitalize end %></h3>
 
 <table>
   <tr>
