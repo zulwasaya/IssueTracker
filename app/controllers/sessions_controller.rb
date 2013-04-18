@@ -21,6 +21,8 @@ class SessionsController < ApplicationController
 #      render :text => "<pre>"+auth_hash.to_yaml+"</pre>"
     end
     $name=auth.user.nickname
+
+    flash[:notice] = "Welcome #{auth.user.nickname} , you are authorized and logged in through #{auth_hash["provider"].capitalize}"
     redirect_to :controller =>'issues'
   end
 
