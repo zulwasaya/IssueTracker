@@ -20,9 +20,9 @@ class SessionsController < ApplicationController
 #      render :text => "Welcome #{auth.user.nickname} , you are authorized and logged in through #{auth_hash["provider"].capitalize} "
 #      render :text => "<pre>"+auth_hash.to_yaml+"</pre>"
     end
-    $name=auth.user.nickname
-
-    flash[:notice] = "Welcome #{auth.user.nickname} , you are authorized and logged in through #{auth_hash["provider"].capitalize}"
+#    $name=auth.user.nickname
+#    flash[:notice]=> "Welcome #{auth.user.nickname} , you are authorized and logged in through #{auth_hash["provider"].capitalize}"
+    $name=auth_hash["info"]["nickname"]
     redirect_to :controller =>'issues'
   end
 
