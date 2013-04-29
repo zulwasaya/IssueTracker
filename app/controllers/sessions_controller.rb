@@ -7,6 +7,10 @@ class SessionsController < ApplicationController
 #    render :text => "<pre>"+request.env["omniauth.auth"].to_yaml+"</pre>"
 
 
+#   Logout user to force authorisation every time app is run
+    session[:user_id] = nil
+
+
     if session[:user_id]
       # Means our user is signed in. Add the authorization to the user
       User.find(session[:user_id]).add_provider(auth_hash)
